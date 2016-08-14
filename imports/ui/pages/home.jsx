@@ -19,29 +19,29 @@ export default class Home extends React.Component {
           </div>
 
         <div className = "row">
-          <div className="col s12 m3 offset-m3">I am a</div>
+          <div className="col s12 m3 right-align">
+            <span className="pre-dropdown-text">I am a</span>
+          </div>
           <div className="input-field col s12 m3 ">
            <select className="js-gender-preference-option">
-             <option value="" disabled defaultValue>Choose your option</option>
-             <option value="1">Straight</option>
+             <option value="1" defaultValue>Straight</option>
              <option value="2">Gay</option>
              <option value="3">Bisexual</option>
            </select>
-           <label>Gender Preference</label>
          </div>
          <div className="input-field col s12 m3 ">
-          <select className="js-gender-preference-option">
-            <option value="" disabled defaultValue>Choose your option</option>
-            <option value="1">Man</option>
-            <option value="2">Woman</option>
-            <option value="3">Transgender</option>
-          </select>
-          <label>Gender</label>
-        </div>
-        <a href="http://materializecss.com/getting-started.html" id="download-button" className="btn-large waves-effect waves-light purple">Continue</a>
-        </div>
-        <br/><br/>
+           <select className="js-gender-preference-option">
+             <option value="1" defaultValue>Man</option>
+             <option value="2">Woman</option>
+             <option value="3">Transgender</option>
+           </select>
+          </div>
+          <div className="col s12 m3">
+            <a className="btn-large special-button waves-effect waves-light purple">Continue</a>
+          </div>
 
+          </div>
+        <br/><br/>
         </div>
       </div>
 
