@@ -37,7 +37,7 @@ export default class Home extends React.Component {
            </select>
           </div>
           <div className="col s12 m3">
-            <a className="btn-large special-button waves-effect waves-light amber">Continue</a>
+            <a href="/signup" className="btn-large special-button waves-effect waves-light amber">Continue</a>
           </div>
 
           </div>
