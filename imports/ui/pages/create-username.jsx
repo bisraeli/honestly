@@ -16,30 +16,30 @@ export default class CreateUserName extends React.Component {
           </h5>
         </div>
         <div className="row">
-          <div className="input-field col s4 offset-s4">
+          <div className="amber-color-input input-field col s4 offset-s4">
             <input
-              placeholder = "Email address"
-              id="email"
+              placeholder = "Create Username"
+              id="create-username"
               type="text"
               className="validate white-text"/>
-            <label className="active"for="email">Email</label>
+            <label className="active"for="create-username">Username</label>
           </div>
         </div>
           <div className = "row">
-          <div className="input-field col s4 offset-s4" >
+          <div className="amber-color-input input-field col s4 offset-s4" >
               <input
-                placeholder="Confirm email"
-                id="confirm-email"
+                placeholder="Create Password"
+                id="create-password"
                 type="text"
                 className="validate white-text"/>
               <label className="active" for="disabled">
-                Confirm email
+                Password
               </label>
           </div>
           </div>
           <div className="row">
             <div className="col s4 offset-s4">
-            <a href="/onboarding" className="btn btn-onboarding amber">
+            <a href="/onboarding" className="btn-large btn-onboarding amber">
               Next...
             </a>
           </div>

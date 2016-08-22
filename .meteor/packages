@@ -23,3 +23,7 @@ react-meteor-data
 aldeed:simple-schema
 email
 honestly:materialize
+fortawesome:fontawesome
+service-configuration
+accounts-facebook
+accounts-password

@@ -1,5 +1,9 @@
 import React from 'react';
 
+const loginWithFacebook = ()=> {
+  Meteor.loginWithFacebook();
+};
+
 const CreateAccountModal = ()=> (
   <div id="modal1" className="modal mini-modal">
     <div className="modal-content">
@@ -21,18 +25,23 @@ const CreateAccountModal = ()=> (
           <label className="active"for="password">Password</label>
         </div>
         <div className="col s12">
-          <button className="btn btn-sign-in amber waves-effect">
+          <button className="btn-large-modal btn amber waves-effect">
             Let's go
           </button>
         </div>
         <div className="col s12">
           <a className= "grey-text" href="#">Forgot your password?</a>
           <div className="horizontal-divider">OR</div>
-          <button className="btn facebook-connect">Sign in</button>
+          <button onClick={ loginWithFacebook } className="btn-large facebook-connect">
+            <i className="left fa fa-facebook" aria-hidden="true"></i>
+            Sign in
+          </button>
         </div>
       </div>
     </div>
   </div>
 );
+//es6 function declration
+
 
 export default CreateAccountModal;
