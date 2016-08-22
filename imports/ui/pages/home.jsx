@@ -4,7 +4,6 @@ export default class Home extends React.Component {
   componentDidMount() {
     // run this only after the element exists in the html
      $('.js-gender-preference-option').material_select();
-
   }
 
   render() {
@@ -12,7 +11,7 @@ export default class Home extends React.Component {
     <div className="home">
       <div className="section section-main deep-purple darken-2" id="index-banner">
         <div className="container">
-          <br/><br/>
+
           <h1 className="header center white-text">Honestly</h1>
           <div className="row center">
             <h5 className="header col s12 light white-text">A Modern take on Dating</h5>
@@ -23,14 +22,14 @@ export default class Home extends React.Component {
             <span className="pre-dropdown-text white-text">I am a</span>
           </div>
           <div className="input-field col s12 m3 ">
-           <select className="js-gender-preference-option white-text">
+           <select className="js-gender-preference-option dropdown-purple-white-big">
              <option value="1" defaultValue>Straight</option>
              <option value="2">Gay</option>
              <option value="3">Bisexual</option>
            </select>
          </div>
          <div className="input-field col s12 m3 ">
-           <select className="js-gender-preference-option white-text">
+           <select className="js-gender-preference-option dropdown-purple-white-big">
              <option value="1" defaultValue>Man</option>
              <option value="2">Woman</option>
              <option value="3">Transgender</option>
