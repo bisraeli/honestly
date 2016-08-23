@@ -6,14 +6,14 @@ import Home from '../../ui/pages/home.jsx';
 import SignUp from '../../ui/pages/signup.jsx'
 import CreateUserName from '../../ui/pages/create-username.jsx'
 
-FlowRouter.route('/signup', {
-  name: 'signup',
-  action() {
-    mount(App, {
-      main: <SignUp/>,
-    });
-  }
-});
+// FlowRouter.route('/signup', {
+//   name: 'signup',
+//   action() {
+//     mount(App, {
+//       main: <SignUp/>,
+//     });
+//   }
+// });
 
 FlowRouter.route('/', {
   name: 'home',
@@ -24,11 +24,11 @@ FlowRouter.route('/', {
   }
 });
 
-FlowRouter.route('/signup/create-username',{
-  name: 'createusername',
-  action(){
-    mount(App, {
-      main: <CreateUserName/>
-    });
-  }
-});
+// FlowRouter.route('/signup/create-username',{
+//   name: 'createusername',
+//   action(){
+//     mount(App, {
+//       main: <CreateUserName/>
+//     });
+//   }
+// });

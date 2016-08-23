@@ -7,7 +7,6 @@ import CreateAccountModal from '../components/create-account-modal.jsx';
 export default class App extends React.Component {
   render () {
     return (
-
         <div className="push-wrap">
           <div>
             <Navbar/>
@@ -16,8 +15,6 @@ export default class App extends React.Component {
             <Footer/>
           </div>
         </div>
-
-
     );
   }
 }
